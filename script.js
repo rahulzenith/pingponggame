@@ -1,5 +1,4 @@
 function game(){
-console.log("ifwqirfu");
 var l=document.getElementById('left-paddle');
 var r=document.getElementById('right-paddle');
 var b=document.getElementById('ball');
@@ -95,15 +94,6 @@ function goal(pos){
  if(pos== "right"){
   lscore.innerHTML = Number(lscore.innerHTML) + 1;
  }
-
-//  speedx = 3;
-//  speedy = 1;
-//  balltime = 1;
-// b.style.left = w/2;
-// b.style.top = 0;
-
-
-//  moveball();
     speedx = 3;
     speedy = 1;
     b.style.top = 0;
